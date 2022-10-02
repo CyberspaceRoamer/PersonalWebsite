@@ -1,0 +1,161 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #eee;
+}
+
+#nickname{
+    margin-right: 10px;
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 1170px;
+    padding: 0 15px;
+    z-index: 1;
+    background-color: #cccccc;
+}
+
+.menu{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: brown;
+}
+
+.avatarBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    width: 600px;
+    height: 100%;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UI_Designs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    margin-top: 30px;
+    padding: 0 15px;
+    background-color: darkgoldenrod;
+}
+
+.UI_Designs .slick-slider{
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: burlywood;
+}
+
+.UI_Designs .slick-slider .slick-item{
+    width: 370px;
+    height: 229px;
+    background-color: brown;
+}
+
+.planeDesigns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    margin-top: 30px;
+    padding: 0 15px;
+    background-color: bisque;
+}
+
+.title{
+    display: flex;
+    align-self: flex-start;
+    font-size: 24px;
+}
+
+.planeDesigns .slick-slider{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    margin-top: 30px;
+    background-color: darkgoldenrod;
+}
+
+.planeDesigns .slick-slider .slick-item{
+    display: flex;
+    width: 270px;
+    height: 360px;
+    background-color: burlywood;
+}
+
+.website{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    margin-top: 30px;
+    padding: 0 15px;
+    background-color: cornflowerblue;
+}
+
+.website .slick-slider{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    margin-top: 30px;
+    background-color: darkblue;
+}
+
+.website .slick-slider .slick-item{
+    display: flex;
+    width: 270px;
+    height: 103px;
+    background-color: blueviolet;
+}
+
+.illustration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    margin-top: 30px;
+    padding: 0 15px;
+    background-color: cadetblue;
+}
+
+.illustration .slick-track{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: 600px;
+    margin-top: 30px;
+    background-color: darkolivegreen;
+}
+
+.illustration .slick-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 570px;
+    background-color: darkgreen;
+}
+
+.illustration .slick-slide .slick-item{
+    display: flex;
+    height: 285px;
+    background-color: mediumseagreen;
+}
